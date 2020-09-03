@@ -156,5 +156,17 @@ INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no)
 WHERE (d.dept_name = 'Sales')
 
-
+--Sales and development pull
+-- Skill Drill
+SELECT ce.emp_no,
+	ce.first_name,
+	ce.last_name,
+	d.dept_name
+INTO sales_dev_pull
+FROM current_emp AS ce
+INNER JOIN dept_emp AS de
+ON (ce.emp_no = de.emp_no)
+INNER JOIN departments AS d
+ON (de.dept_no = d.dept_no)
+WHERE dept_name IN ('Sales', 'Development')
 
