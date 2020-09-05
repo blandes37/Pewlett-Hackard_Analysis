@@ -1,5 +1,6 @@
-# Pewlett-Hackard Analysisi
+# Pewlett-Hackard Analysis
 
+Due to limited bandwidth this week, I have opted to complete deliverables 1 and 2, but not 3.
 
 ![Unique Titles](https://github.com/blandes37/Pewlett-Hackard_Analysis/blob/master/retiring_titles.png?raw=true)
 
